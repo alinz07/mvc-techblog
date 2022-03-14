@@ -7,8 +7,7 @@
 <br/>
 
 ## **Motivation**
-Create a CMS-style blog sit to publish blog posts and comment on other developer's posts. Use the MVC paradigm, handlebars.js as the template language, sequelize as the ORM and express-session npm package for authentication.
- .
+Create a CMS-style blog to publish blog posts and comment on other developer's posts. Use the MVC paradigm, handlebars.js as the template language, sequelize as the ORM and express-session npm package for authentication.
 
 <br/>
 
@@ -28,11 +27,12 @@ Developers need a way to read and write about technical concepts, recent advance
 <br/>
 
 ## **Things I learned**
-* How to use the maxAge property of a cookie property of an express session. The maxAge property defines how long it will take for a cookie to expire, thus forcing a user to login again before being able to add posts or comments when used in conjunction with the withAuth() function that runs before create, update and delete methods in the api routes.
-* 
+* How to use the maxAge property of the cookie property of an express session. The maxAge property defines how long it will take for a cookie to expire, thus forcing a user to login again before being able to add posts or comments when used in conjunction with the withAuth() function that runs before create, update and delete methods in the api routes.
+* The value of reusing code I already wrote.
 <br/>
 
 ## **What makes this project stand out?**
+This project stands out because it uses so many npm packages compared to my previous projects. Harnessing the power of premade packages made blog creation with CRUD user-protections easy.
 
 
 <br/>
@@ -94,7 +94,7 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 <br/>
 
 ## **Screenshot of Web Application**
-<!-- ![gif-of-webapp](./Develop/public/assets/challenge-11.gif) -->
+![gif-of-webapp](./public/images/challenge-14.gif)
 <br/>
 
 ## **How to Contribute**
