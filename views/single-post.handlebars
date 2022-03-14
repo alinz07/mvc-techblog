@@ -1,7 +1,9 @@
-{{> post-info post}}
+<div id="post-div" class="ml-2">
+  {{> post-info post}}
+</div>
 
 {{#if loggedIn}}
-<form class="comment-form">
+<form class="comment-form ml-2">
   <div>
     <textarea name="comment-body"></textarea>
   </div>
@@ -11,7 +13,7 @@
   </div>
 </form>
 {{else}}
-<h3>You must be logged in to comment</h3>
+<h3 class="pl-2">You must be logged in to comment</h3>
 {{/if}}
 
 {{> comments post.comments}}
