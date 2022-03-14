@@ -8,14 +8,14 @@
 
   <div>
     <button type="submit">add comment</button>
-    <button type="button" class="upvote-btn">upvote</button>
   </div>
 </form>
+{{else}}
+<h3>You must be logged in to comment</h3>
 {{/if}}
 
 {{> comments post.comments}}
 
 {{#if loggedIn}}
 <script src="/javascript/comment.js"></script>
-<script src="/javascript/upvote.js"></script>
 {{/if}}
