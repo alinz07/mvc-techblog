@@ -1,7 +1,7 @@
 # Model-View-Controller Tech Blog
 <br/>
 
-## **Link** to app deployed on heroku: https://tons-tech-blog.herokuapp.com/ 
+## **Link** to app deployed on Heroku: https://tons-tech-blog.herokuapp.com/ 
 
 ## **Link** to project repository: https://github.com/alinz07/mvc-techblog 
 <br/>
