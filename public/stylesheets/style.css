@@ -7,7 +7,7 @@ a {
 }
 
 header a {
-    color: darkcyan
+    color: darkcyan;
 }
 
 header.bg-warning.py-3 {
@@ -19,6 +19,10 @@ main {
     padding-bottom: 10px;
 }
 
+.bg-info {
+    height: 500px;
+}
+
 .home-post-titles {
     font-size: larger;
 }
@@ -27,7 +31,8 @@ main {
     padding: 10px;
 }
 
-.signup-form, .signup-form > h3 {
+.signup-form,
+.signup-form > h3 {
     padding: 10px;
 }
 
@@ -41,7 +46,9 @@ main {
     width: fit-content;
 }
 
-#dash-post, #edit-post, .home-post {
+#dash-post,
+#edit-post,
+.home-post {
     width: fit-content;
 }
 
